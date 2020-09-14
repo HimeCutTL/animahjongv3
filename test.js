@@ -8,6 +8,7 @@
 
 // jis x 0208 to utf16 converter courtsey of unicode inc
 // col 0 is SJIS, col 1 is JIS x 0208, col 2 is the U+XXXX codepoint representation
+// unicode file is available at https://ftp.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT
 const { readFileSync } = require('fs');
 const data = readFileSync('JIS0208.TXT').toString();
 
