@@ -12,417 +12,417 @@
 # All non-comment lines are terminated with a semicolon.
 # For options:
 # ```
-# OPTION;
-# <Option Text JP>|<Option Text EN>;
-# <n>. <Option 1 JP>+;
+# OPTION
+# <Option Text JP>|<Option Text EN>
+# <n>. <Option 1 JP>+
 #```
 #
 # For Script lines:
-# <JP Name>|<EN Name>;
-# <JP Text>;
-# <EN Text>;
+# <JP Name>|<EN Name>
+# <JP Text>
+# <EN Text>
 
 
-OPTION;
-音源を指示してください。|Please select your audio source.;
-1．内蔵音源|Internal Audio;
-2．音源ボード|Sound Card;
+#OPTION
+#音源を指示してください。|Please select your audio source.
+#1．内蔵音源|Internal Audio
+#2．音源ボード|Sound Card
 
-OPTION;
-初めから|From the start;
-途中から|From the middle;
-美しき思ひで|From the choice of beauties;
+#OPTION
+#初めから|From the start
+#途中から|From the middle
+#美しき思ひで|From the choice of beauties
 
 
 # ------------------=INTRO=------------------
 
-俺|Me;
-立直、一発、タンヤオ、一盃口、ドラドラ、親ッパネだ。;
-riichi. first tile brings me the win with all simples, a pure double chow and a 'parent's panel'.;
+俺|Me
+立直、一発、タンヤオ、一盃口、ドラドラ、親ッパネだ。
+riichi. first tile brings me the win with all simples, a pure double chow and a 'parent's panel'.
 
-A君|Player A;
-げー、またかよー。;
-Eh! Again..?;
+A君|Player A
+げー、またかよー。
+Eh! Again..?
 
-B君|Player B;
-あいかわらず強いなー。;
-Strong as ever...;
+B君|Player B
+あいかわらず強いなー。
+Strong as ever...
 
-俺|Me;
-悪いなー、　いつも勝たせてもらってよー。;
-Heh, sorry about that. I always seem to receive the win-;
+俺|Me
+悪いなー、　いつも勝たせてもらってよー。
+Heh, sorry about that. I always seem to receive the win-
 
-親父|The Father;
-君;
-You;
+親父|The Father
+君
+You
 
-俺|Me;
-は、はい．．．何か？．．;
-Y-yes?;
+俺|Me
+は、はい．．．何か？．．
+Y-yes?
 
-親父|The Father;
-突然だが．．．わしの息子にならんか？;
-It's sudden, but... Would you like to become my son?;
+親父|The Father
+突然だが．．．わしの息子にならんか？
+It's sudden, but... Would you like to become my son?
 
-俺|Me;
-は．はぁ？．．．;
-H-huh?;
+俺|Me
+は．はぁ？．．．
+H-huh?
 
 # TITLE ANIMATION PLAYS
 
-親父|The Father;
-急な話で驚いただろうが。。。;
-I'm sure you were surprised by this sudden conversation.;
+親父|The Father
+急な話で驚いただろうが。。。
+I'm sure you were surprised by this sudden conversation.
 
-俺| Me;
-はぁ。。。;
-Right...;
+俺| Me
+はぁ。。。
+Right...
 
-親父|The Father;
-実は我が家は代々、プロの雀師として栄華を極めていたのだが。。。困ったことに私には３人の娘しか生まれずにな。。。このままでは我が家の血が私の代で終わってしあう。;
-The truth is, for generations my family has been made up of exceedingly proesperous experts in their professions... The disturbing thing is that of my three children, they were all daughters. As such, my bloodline is threatened.;
+親父|The Father
+実は我が家は代々、プロの雀師として栄華を極めていたのだが。。。困ったことに私には３人の娘しか生まれずにな。。。このままでは我が家の血が私の代で終わってしあう。
+The truth is, for generations my family has been made up of exceedingly proesperous experts in their professions... The disturbing thing is that of my three children, they were all daughters. As such, my bloodline is threatened.
 
-親父|The Father;
+親父|The Father
 そこでムコ養子の候補を探していたんだが。。。そこで君を見つけてな。
-I've been searching for a son-in-law candidate... That is, until I found you.;
+I've been searching for a son-in-law candidate... That is, until I found you.
 
-俺|Me;
-はぁ。。。そうなんですか。。。;
-Is that so...;
+俺|Me
+はぁ。。。そうなんですか。。。
+Is that so...
 
-親父|The Father;
-どうだろう？我が家跡取りとして、ムコに来てはもらえまいか。;
-How does that sound: becoming the heir to my bloodline and join one of my daughters?;
+親父|The Father
+どうだろう？我が家跡取りとして、ムコに来てはもらえまいか。
+How does that sound: becoming the heir to my bloodline and join one of my daughters?
 
-俺|Me;
-いや。。しかし、そんな会ったこともないのに。;
-Well... It's not that so much as I've never met these girls.;
+俺|Me
+いや。。しかし、そんな会ったこともないのに。
+Well... It's not that so much as I've never met these girls.
 
-親父|The Father;
-おお、それもぞうだな。では早速、婿を紹介よう。;
-Oooh, you have a point! Well then, I'll introduce them at once!;
+親父|The Father
+おお、それもぞうだな。では早速、婿を紹介よう。
+Oooh, you have a point! Well then, I'll introduce them at once!
 
-親父|The Father;
-長女の弓香;
-My eldest daughter: Yumika;
+親父|The Father
+長女の弓香
+My eldest daughter: Yumika
 
-親父|The Father;
-次女の雅;
-My second daughter: Miyabi;
+親父|The Father
+次女の雅
+My second daughter: Miyabi
 
-親父|The Father;
-三女の留美;
-My youngest daughter: Rumi;
+親父|The Father
+三女の留美
+My youngest daughter: Rumi
 
-親父|The Father;
-さあ。どれでも好きなのをもってってくれ。;
-Well then, please choose which one you like.;
-
-
-留美|Rumi;
-ちよっと、お父さん。。。;
-Wait, father..!;
-
-留美|Rumi;
-いきなり、そんなことを言われたって。。。;
-so suddenly saying something like that...;
+親父|The Father
+さあ。どれでも好きなのをもってってくれ。
+Well then, please choose which one you like.
 
 
-雅|Miyabi;
-お互いに知らない同士じゃあね。;
-We don't even know eachother.;
+留美|Rumi
+ちよっと、お父さん。。。
+Wait, father..!
 
-弓香|Yumika;
-まあ、お父様が選んだ人なら大丈夫だとは思いますけど。。。;
-Come on, father chose this person, so I think it'll be alright.;
-
-親父|The Father;
-うーむ。それもそうだな。;
-Umu. I think so too.;
-
-俺|Ore;
-そうですよ。やっぱ、もっとよく知り合わないと。。。;
-I agree, we haven't even gotten to know eachother yet.;
-
-親父|The Father;
-よし。じゃあ、こうしよう。いまから、娘たち一人一人を相手にして麻雀で勝負をしてもらおう。;
-I know! Now, one-by-one, you will compete in Mahjong.;
-
-俺|Ore;
-はぁ。。。;
-Huh...;
-
-親父|The Father;
-そして、負けた方が一枚ずつ服いでいくというのはどうだ;
-Then, the loser will remove their clothing piece-by-piece.;
-
-俺|Ore;
-ええ！？　（本気？このおやじ）;
-Ehh!? (Is this old man for real?);
-
-留美|Rumi;
-ちよっと。お父さん！娘になんてことをさせんのよ！;
-Hold on! Father, we're your daughters, what are you trying to make us do!?;
-
-親父|The Father;
-お互いのことを知り合うには、一番てっとり早い方法だと思うが。。。;
-This way, I believe you will get to know eachother more quickly.;
-
-留美|Rumi;
-そーゆ問題じゃないでしょ！;
-The speed isn't the problem!;
-
-雅|Miyabi;
-あら、別にいーんじゃない;
-Ara, is another way better?;
-
-留美|Rumi;
-おねーちゃん！？。。。;
-Oneechan!?;
+留美|Rumi
+いきなり、そんなことを言われたって。。。
+so suddenly saying something like that...
 
 
-雅|Miyabi;
-旦那様になろうって 人なんだから どれ程の腕か興味あるし。。。まけなきゃいいわけでしょ？;
-Because this person is a prospective husband, I'm curious about their level of skill relative to my own. Isn't it OK as long as we don't lose?;
+雅|Miyabi
+お互いに知らない同士じゃあね。
+We don't even know eachother.
 
-留美|Rumi;
-そりゃそうだけど。。;
-Well, that's true...;
+弓香|Yumika
+まあ、お父様が選んだ人なら大丈夫だとは思いますけど。。。
+Come on, father chose this person, so I think it'll be alright.
 
-弓香|Yumika;
-私はかまいませんけど。。;
-I have no problem with it.;
+親父|The Father
+うーむ。それもそうだな。
+Umu. I think so too.
 
-親父|The Father;
-よし、じゃあ決まりだな。がんばってくれよ君。;
-Alright! The rules have been decided. Do your best, future son-in-law.;
+俺|Ore
+そうですよ。やっぱ、もっとよく知り合わないと。。。
+I agree, we haven't even gotten to know eachother yet.
 
-俺|Ore;
-は。はぁ。。　（なんか。。とんでもないおやじだな。。）;
-R-right... (This... crazy old man...);
+親父|The Father
+よし。じゃあ、こうしよう。いまから、娘たち一人一人を相手にして麻雀で勝負をしてもらおう。
+I know! Now, one-by-one, you will compete in Mahjong.
+
+俺|Ore
+はぁ。。。
+Huh...
+
+親父|The Father
+そして、負けた方が一枚ずつ服いでいくというのはどうだ
+Then, the loser will remove their clothing piece-by-piece.
+
+俺|Ore
+ええ！？　（本気？このおやじ）
+Ehh!? (Is this old man for real?)
+
+留美|Rumi
+ちよっと。お父さん！娘になんてことをさせんのよ！
+Hold on! Father, we're your daughters, what are you trying to make us do!?
+
+親父|The Father
+お互いのことを知り合うには、一番てっとり早い方法だと思うが。。。
+This way, I believe you will get to know eachother more quickly.
+
+留美|Rumi
+そーゆ問題じゃないでしょ！
+The speed isn't the problem!
+
+雅|Miyabi
+あら、別にいーんじゃない
+Ara, is another way better?
+
+留美|Rumi
+おねーちゃん！？。。。
+Oneechan!?
+
+
+雅|Miyabi
+旦那様になろうって 人なんだから どれ程の腕か興味あるし。。。まけなきゃいいわけでしょ？
+Because this person is a prospective husband, I'm curious about their level of skill relative to my own. Isn't it OK as long as we don't lose?
+
+留美|Rumi
+そりゃそうだけど。。
+Well, that's true...
+
+弓香|Yumika
+私はかまいませんけど。。
+I have no problem with it.
+
+親父|The Father
+よし、じゃあ決まりだな。がんばってくれよ君。
+Alright! The rules have been decided. Do your best, future son-in-law.
+
+俺|Ore
+は。はぁ。。　（なんか。。とんでもないおやじだな。。）
+R-right... (This... crazy old man...)
 
 
 # ------------=Rumi Route=---------------
 
-留美|Rumi;
-留美です。あんまりルールわかんあいけどよろしくね。;
-I'm Rumi. I don't really understand most of the rules... but let's try!;
+留美|Rumi
+留美です。あんまりルールわかんあいけどよろしくね。
+I'm Rumi. I don't really understand most of the rules... but let's try!
 
-留美|Rumi;
-あーあ、負けちゃった。;
-Aww. I lost...;
+留美|Rumi
+あーあ、負けちゃった。
+Aww. I lost...
 
-留美|Rumi;
-これから挽回してやるんだから。;
-This is where I start to recover.;
+留美|Rumi
+これから挽回してやるんだから。
+This is where I start to recover.
 
-留美|Rumi;
-もう負けないからね！;
-I won't lose again!;
+留美|Rumi
+もう負けないからね！
+I won't lose again!
 
-留美|Rumi;
-はぁ。。;
-Haa...;
+留美|Rumi
+はぁ。。
+Haa...
 
-留美|Rumi;
+留美|Rumi
 髪おろすと感じちがうでしょ。
 Letting down your hair feels so good, doesn't it?
 
-留美|Rumi;
-あ．．あれ？おっかしいなあ;
-H-huh? So suddenly..?;
+留美|Rumi
+あ．．あれ？おっかしいなあ
+H-huh? So suddenly..?
 
-留美|Rumi;
-やっぱりあたしには向いてないみたい。;
-I guess it doesn't really suit me after all;
+留美|Rumi
+やっぱりあたしには向いてないみたい。
+I guess it doesn't really suit me after all
 
 
 # -------------=Miyabi Route=----------------
-雅|Miyabi;
-雅よ、よろしく！;
-I'm Miyabi, nice to meet you!;
+雅|Miyabi
+雅よ、よろしく！
+I'm Miyabi, nice to meet you!
 
-雅|Miyabi;
-ま、一回くらいはご愛嬌ってとこね。;
-Well, don't get cocky over one win.;
+雅|Miyabi
+ま、一回くらいはご愛嬌ってとこね。
+Well, don't get cocky over one win.
 
-雅|Miyabi;
-あ、あら。なかなかやるわね。;
-Huh? I can turn this around easily.;
+雅|Miyabi
+あ、あら。なかなかやるわね。
+Huh? I can turn this around easily.
 
-雅|Miyabi;
-ちょっとちょっと、女の子相手に本気になんないでよ。;
-Wait, wait! You're playing against a woman you know.;
+雅|Miyabi
+ちょっとちょっと、女の子相手に本気になんないでよ。
+Wait, wait! You're playing against a woman you know.
 
-雅|Miyabi;
-ほら、2個もとってあげた;
-Look, there's still two left...;
+雅|Miyabi
+ほら、2個もとってあげた
+Look, there's still two left...
 
-雅|Miyabi;
-な。。なんか向きになってない？;
-W-what a direction this ended up taking...;
+雅|Miyabi
+な。。なんか向きになってない？
+W-what a direction this ended up taking...
 
-雅|Miyabi;
-あなたには負けたわ。約束だもんえ。;
-I lost to you, huh? Well, a promise is a promise.;
+雅|Miyabi
+あなたには負けたわ。約束だもんえ。
+I lost to you, huh? Well, a promise is a promise.
 
 # ------------=Yumika Route=---------------
 
 弓香|Yumika
-弓香です。おてやわかに。;
-I'm Yumika, don't go too hard on me.;
+弓香です。おてやわかに。
+I'm Yumika, don't go too hard on me.
 
 弓香|Yumika
-あら、わりとお強いんですのね。;
-Oh, you're relatively strong, huh?;
+あら、わりとお強いんですのね。
+Oh, you're relatively strong, huh?
 
-弓香|Yumika;
-まだまだこれからですわ。;
-Well, well. From here will be different.;
+弓香|Yumika
+まだまだこれからですわ。
+Well, well. From here will be different.
 
-弓香|Yumika;
-これ以上は負けてあげれませんわよ。;
-I won't lose again, you know.;
+弓香|Yumika
+これ以上は負けてあげれませんわよ。
+I won't lose again, you know.
 
-弓香|Yumika;
-仕方ありませんわね。;
-Guess it can't be helped then...;
+弓香|Yumika
+仕方ありませんわね。
+Guess it can't be helped then...
 
-弓香|Yumika;
-はい。;
-Here!;
+弓香|Yumika
+はい。
+Here!
 
-弓香|Yumika;
-そ。。その目、やめて下さいませんか。。;
-S-stop looking at me like that...;
+弓香|Yumika
+そ。。その目、やめて下さいませんか。。
+S-stop looking at me like that...
 
-弓香|Yumika;
-さすがはお父様が選ばれた方、私の負けですわ。;
-As expected of my father's choice. I guess I lose.;
+弓香|Yumika
+さすがはお父様が選ばれた方、私の負けですわ。
+As expected of my father's choice. I guess I lose.
 
 # ---------=ending=-------------
 
-親父|The Father;
-うむ。さすがは、私がみこんだだけのことはあるな。うちの娘を全員負かすとは。;
-Umu. It was just as I anticipated. to think that all of my daughters were defeated.;
+親父|The Father
+うむ。さすがは、私がみこんだだけのことはあるな。うちの娘を全員負かすとは。
+Umu. It was just as I anticipated. to think that all of my daughters were defeated.
 
-俺|Me;
-いや、そんなたいしたことじゃ。;
+俺|Me
+いや、そんなたいしたことじゃ。
 No, it was a considerable effort.
 
-親父|The Father;
-さて。もう互いに充分知り合ったことだろうしそろそ選んでくれたまえ。;
-Well then, now that it seems you've gotten to know eachother enough, I think it's time you made your choice.;
+親父|The Father
+さて。もう互いに充分知り合ったことだろうしそろそ選んでくれたまえ。
+Well then, now that it seems you've gotten to know eachother enough, I think it's time you made your choice.
 
-俺|Me;
-うーん、そうですねぇ。。;
-Well, I guess you're right...;
+俺|Me
+うーん、そうですねぇ。。
+Well, I guess you're right...
 
-OPTION
-誰にしますか？|Who will you go with?;
-1. 留美|Rumi;
-2. 雅|Miyabi;
-3. 弓香|Yumika;
-4. やっぱやめて|I'm not cut out for this.;
+#OPTION
+#誰にしますか？|Who will you go with?
+#1. 留美|Rumi
+#2. 雅|Miyabi
+#3. 弓香|Yumika
+#4. やっぱやめて|I'm not cut out for this.
 
 # ---------="go with" with Rumi=---------
 
-留美|Rumi;
-え～？あたし？う～んと、;
-Huh? Me? Well then...;
+留美|Rumi
+え～？あたし？う～んと、
+Huh? Me? Well then...
 
-留美|Rumi;
-じゃあね。あたしねぇお休みの日とかはゆーえんちとかいきたいしぃ。あと、ショッピングなんかも好きだから荷物もってもらったり。。。;
-For me, on holidays and the like, I want to go out. Also, I love to go shopping so I'll get my luggage...;
+留美|Rumi
+じゃあね。あたしねぇお休みの日とかはゆーえんちとかいきたいしぃ。あと、ショッピングなんかも好きだから荷物もってもらったり。。。
+For me, on holidays and the like, I want to go out. Also, I love to go shopping so I'll get my luggage...
 
-俺|Me;
-あ。。ちょっとまって。考え直す。。。;
-W-wait! I need to think some more...;
+俺|Me
+あ。。ちょっとまって。考え直す。。。
+W-wait! I need to think some more...
 
 # -----------="go with" with Miyabi=-----------
 
-雅|Miyabi;
-あら、あたしなの？そうねぇ。。;
-Huh, you choose me? Alright then...;
+雅|Miyabi
+あら、あたしなの？そうねぇ。。
+Huh, you choose me? Alright then...
 
-雅|Miyabi;
+雅|Miyabi
 あたしはねぇ。一生楽して豪華に暮らすのが夢なの。だからがんばって稼いできてね。
-For me, my dream is for a life that is full of fun and full of splendor. So work hard to earn a lot to fund that life.;
+For me, my dream is for a life that is full of fun and full of splendor. So work hard to earn a lot to fund that life.
 
-俺|Me;
-。。。ちょっと考えさせてもらえるかな。。。;
-...Wait... Could you let me think...;
+俺|Me
+。。。ちょっと考えさせてもらえるかな。。。
+...Wait... Could you let me think...
 
 # -----------="go with" with Yumika=-----------
 
-弓香|Yumika;
-あら、私になさいます？;
-Oh? I'm the one you want?;
+弓香|Yumika
+あら、私になさいます？
+Oh? I'm the one you want?
 
-弓香|Yumika;
-それでしたら、やはり私の仕事の関係上、法律関係と経営学あたりを学んでおいていただかないと。。。;
-Well as such, you should know that my work is above any relationship. My work involves studying law and business management...;
+弓香|Yumika
+それでしたら、やはり私の仕事の関係上、法律関係と経営学あたりを学んでおいていただかないと。。。
+Well as such, you should know that my work is above any relationship. My work involves studying law and business management...
 
-俺|Me;
-。。。ちょっと。。まって。。（そんなこと覚えられるようなら麻雀なんかやってるか。。）;
-Just... Just wait a second... (If you can learn all that, why are you so bad at Mahjong...);
+俺|Me
+。。。ちょっと。。まって。。（そんなこと覚えられるようなら麻雀なんかやってるか。。）
+Just... Just wait a second... (If you can learn all that, why are you so bad at Mahjong...)
 
 # ---------------=やっぱやめて=----------------
 
-俺|Me;
-うーん、そうだな～。　あんまりガキっぱいのもなんだしな～。;
-Umm, so as it stands~. The problem is that you seem like a brat~.;
+俺|Me
+うーん、そうだな～。　あんまりガキっぱいのもなんだしな～。
+Umm, so as it stands~. The problem is that you seem like a brat~.
 
-俺|Me;
-かといって気の強そうな女もいやだし;
-Having said that, the nature of this strong woman is also pretty distasteful.;
+俺|Me
+かといって気の強そうな女もいやだし
+Having said that, the nature of this strong woman is also pretty distasteful.
 
-俺|Me;
-あんまり年がいってるのもちょっと。。。;
-Honestly, you're a little too old...;
+俺|Me
+あんまり年がいってるのもちょっと。。。
+Honestly, you're a little too old...
 
-俺|Me;
-みんな一長一短で選ぶのにこまっちゃいますね～;
-Given all of your pros and cons, it makes my choice hard~.;
+俺|Me
+みんな一長一短で選ぶのにこまっちゃいますね～
+Given all of your pros and cons, it makes my choice hard~.
 
-親父|The Father;
-う～む、正直な若者だねぇ。;
-Umu. You're an honest young man aren't you.;
+親父|The Father
+う～む、正直な若者だねぇ。
+Umu. You're an honest young man aren't you.
 
-留美|Rumi;
-人の裸、見るだけ見といて。。;
-You saw me... you saw me naked!;
+留美|Rumi
+人の裸、見るだけ見といて。。
+You saw me... you saw me naked!
 
-雅|Miyabi;
-いいたいことはそれだけか。。。;
-Do you anything else you wanna say..!?;
+雅|Miyabi
+いいたいことはそれだけか。。。
+Do you anything else you wanna say..!?
 
-弓香|Yumika;
-なに様のつもり。。？;
-Was there anything else to your plan, big guy!?;
+弓香|Yumika
+なに様のつもり。。？
+Was there anything else to your plan, big guy!?
 
-俺|Me;
-あ。。いや、別にそういうつもりじゃ。。。;
-Ah... no... there wasn't much of a plan...;
+俺|Me
+あ。。いや、別にそういうつもりじゃ。。。
+Ah... no... there wasn't much of a plan...
 
-留美|Rumi;
-そーゆうつもりもどーゆうつもりもないわよ。;
-So rather, what you're saying is you have no plan, right?;
+留美|Rumi
+そーゆうつもりもどーゆうつもりもないわよ。
+So rather, what you're saying is you have no plan, right?
 
-雅|Miyabi;
-覚悟はできてんでしょーね。;
-So you're readying and prepared, huh?;
+雅|Miyabi
+覚悟はできてんでしょーね。
+So you're readying and prepared, huh?
 
-俺|Me;
-あーーーー;
-AHH!!;
+俺|Me
+あーーーー
+AHH!!
 
-親父|The Father;
-またしても。。。だめであったか。。。;
-Yet again... Was this no good..?;
+親父|The Father
+またしても。。。だめであったか。。。
+Yet again... Was this no good..?
 
-親父|The Father;
-しかし、わしはあきらめん。。。きっと。。。きっと。。我が家を継ぐりっぱいな婿をさがしだしてみせうろぞ～～～。;
-However, should I give up my search? surely... surely... No! I will keep tracking down the husband who will replenish my family!!!;
+親父|The Father
+しかし、わしはあきらめん。。。きっと。。。きっと。。我が家を継ぐりっぱいな婿をさがしだしてみせうろぞ～～～。
+However, should I give up my search? surely... surely... No! I will keep tracking down the husband who will replenish my family!!!
 
-＃　～～～～完～～～～
+#　～～～～完～～～～

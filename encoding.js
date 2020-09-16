@@ -9,13 +9,15 @@
 // jis x 0208 to utf16 converter courtsey of unicode inc
 // col 0 is SJIS, col 1 is JIS x 0208, col 2 is the U+XXXX codepoint representation
 // unicode file is available at https://ftp.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT
-const { readFileSync } = require('fs');
+const { readFileSync, writeFileSync } = require('fs');
 const data = readFileSync('JIS0208.TXT').toString();
 
 const lines = data.split(/\r?\n/);
 
 const encode_table = {};
 const decode_table = {};
+
+const bytes = [];
 
 
 // build JIS x 0208 table
@@ -27,11 +29,11 @@ lines.forEach(l => {
 	encode_table[line[2]] = line[1];
 });
 
-// strings are in JIS x 0208 starting with 02 21 73 23 59 and ending with a null byte
-function decode(buffer) {
+// strings are in JIS x 0208 starting with 02 21 73 23 xx and ending with a null byte
+function decode({ buffer, end_index }) {
 	const result = [];
 	if (buffer.length % 2 !== 0) {
-		console.log('length is not even. Invalid JISx0208', buffer.length)
+		console.log('length is not even. Invalid JISx0208', buffer, buffer.length)
 		console.log(s)
 	}
 
@@ -40,7 +42,7 @@ function decode(buffer) {
 		const byte = decode_table[mb];
 		result.push(byte)
 	}
-	return String.fromCodePoint(...result)
+	return { result: String.fromCodePoint(...result), end_index };
 }
 
 // lmao what a nonsense approach... that said, buffers seem to trim off
@@ -67,39 +69,13 @@ function encode(s) {
 	return result; 
 }
 
-function parse_out_text(contents, start) {
-	let result = [];
-	for (let i = start; contents[i] !== 0x00; i++) {
-		result.push(contents[i]);
-	}
-	return Buffer.from(result);
-}
+module.exports = {
+	decode,
+	encode,
+	get_points
+};
 
-
-// parse relevant sil contents
-function parse_sil(contents) {
-	const script = [];
-
-	// 02 21 73 23 59 -> 0x00 is a script entry
-	for (let i=0; i < contents.length; i++) {
-		if (contents[i] == 0x02 && contents[i+1] == 0x21 && contents[i+2] == 0x73 && contents[i+3] == 0x23 && contents[i+4] != 0x00) {
-			script.push(`${contents[i+4].toString(16)}|` + decode(parse_out_text(contents, i+5)));
-			i = i + 6;
-		}
-	}
-	return script;
-}
-
-const operation = process.argv[2]; // x | e (extract | encode)
-
-switch(operation) {
-	case 'x':
-		const buf = readFileSync(process.argv[3]);
-		const script = parse_sil(buf);
-		console.log(script);
-		break;
-	case 'e':
-		const string = process.argv[3];
-		console.log(encode(get_points(string)));
-}
-
+module.exports.tables = {
+	decode_table,
+	encode_table
+};
