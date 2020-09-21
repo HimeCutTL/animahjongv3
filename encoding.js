@@ -38,6 +38,10 @@ function decode({ buffer, end_index }) {
 	}
 
 	for (let i=0; i<buffer.length; i+=2) {
+		//if (buffer[i] == 0x00) {
+		//	{ code, skip } = parse_control(buffer, i);
+		//	i += skip;
+		//}
 		const mb = (buffer[i] << 8) | buffer[i+1];
 		const byte = decode_table[mb];
 		result.push(byte)
@@ -50,7 +54,7 @@ function decode({ buffer, end_index }) {
 function get_points(s) {
 	let result = '';
 	for (let i = 0; i < s.length; i++) {
-		result += s.codePointAt(i).toString(16).padStart(4, '0');
+		result += s.codePointAt(i).toString(16).padStart(4, 'F');
 	}
 
 	return result;
@@ -60,10 +64,28 @@ function get_points(s) {
 function encode(s) {
 	// split every 4 chars
 	const buffer = s.match(/.{1,4}/g).map(e => parseInt(e, 16));
-	let result = ""
+	let result = []
 	for (let i=0; i<buffer.length; i++) {
+		// massage ASCII data
+		if ((buffer[i] & 0xFF00) == 0xFF00) {
+			let b = (buffer[i] & 0xFF);
+			
+			// generally, need to just shift by 0x20 for this table, but
+			// some are completely unaligned with /actual/ unicode.
+			// these were just found by reading the text file
+			if (b == 0x20) { // ASCII space needs to be massaged 
+				buffer[i] = 0x3000;
+			} else if (b == 0x27) { buffer[i] = 0x2018; }
+			  else if (b == 0x2D) { buffer[i] = 0x2010; }
+			  else { // ascii is actually shifted by 0x20 in this table for no reason
+				buffer[i] = (buffer[i] & 0xFF00) | (b - 0x20);
+			}
+			
+		}
+		
 		const byte = encode_table[buffer[i]];
-		result += byte.toString(16); 
+		result.push((byte & 0xFF00) >> 8);
+		result.push(byte & 0xFF); 
 	}
 
 	return result; 
