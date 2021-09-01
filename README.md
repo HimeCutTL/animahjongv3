@@ -30,3 +30,21 @@ A new piece of dialogue is null-terminated always prepended with the byte sequen
 Clear the dialogue window.
 
 `02 21 30 00`
+
+Below is a rough map of the opcodes in SIL archives:
+```
+OC|OC<<1
+--------
+0F|1E <reads until 0x00> - select animation to play (A:...)
+1C|38 <2 bytes> ; 8A 07
+2C|58 <reads until 0x00> - reads all those 03, 0e, etc. inbetween A:...,B:... and start of text
+39|72 <no args> - play loaded animation
+07|0E <reads until 0x00> - select B:...
+1F|3E <6 bytes> - plays panning animation ****
+23|46 <not sure> - jumps to the very end of the file
+17|2E <no args> - at the end of the file ; appears to load more instructions at the file end and jump 0x03
+05|0A <not sure> - block until enter
+09|12 <2 bytes> - display loaded B:...
+15|2A <not sure> - reads a lot sometimes... maybe until 0e but not quite?
+23|46 <2 bytes> - read byte at ax, +4000, return as si. ret address stored at 257e
+```
